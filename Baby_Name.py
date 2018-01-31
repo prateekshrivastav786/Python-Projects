@@ -1,9 +1,9 @@
 
-import random
+import random  # for random generation
 
-vowels='aeiou'
-consonants='bcdfghjklmnpqrstvwxyz'
-letters=vowels+consonants
+vowels='aeiou'   # defining the vowels letters 
+consonants='bcdfghjklmnpqrstvwxyz' # defining the consonants letters
+letters=vowels+consonants # either of the type
 
 letter_input_1=input("What letter do you want? Enter 'v' for vowels, 'c' for consonants, 'l' for any letter: ")
 letter_input_2=input("What letter do you want? Enter 'v' for vowels, 'c' for consonants, 'l' for any letter: ")
@@ -41,9 +41,3 @@ def plot():
 
 for i in range(10):
 	print(plot())
-
-
-# In[ ]:
-
-
-
